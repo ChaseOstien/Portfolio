@@ -1,0 +1,36 @@
+{
+  "name": "week20-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "npm run watch:css && vite",
+    "build": "npm run watch:css && vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "github:fullhuman/postcss-purgecss",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "@vitejs/plugin-react": "^4.1.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.52.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.5.0"
+  }
+}
