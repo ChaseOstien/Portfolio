@@ -207,7 +207,8 @@ Removes the default spacing and border for appropriate elements.
 */
 
 
-h4 {
+h4,
+p {
   margin: 0;
 }
 
