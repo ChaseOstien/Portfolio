@@ -7,9 +7,9 @@ import './assets/main.css';
 
 import App from './App';
 import Error from './pages/ErrorPage';
-import About from './pages/AboutPage';
+import AboutPage from './pages/AboutPage';
 import Contact from './pages/AboutPage';
-import Portfolio from './pages/PortfolioPage';
+import PortfolioPage from './pages/PortfolioPage';
 import Resume from './pages/ResumePage';
 
 const router = createBrowserRouter([
@@ -20,11 +20,11 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <About />,
+                element: <AboutPage />,
             },
             {
                 path: '/Portfolio',
-                element: <Portfolio />,
+                element: <PortfolioPage />,
             },
             {
                 path: '/Contact',
