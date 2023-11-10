@@ -11,10 +11,15 @@ module.exports = {
   './src/pages/AboutPage.jsx',
   './src/pages/ContactPage.jsx',
   './src/pages/PortfolioPage.jsx',
-  './src/pages/ResumePage.jsx'
+  './src/pages/ResumePage.jsx',
+  './src/components/PortfolioContainer.jsx',
  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        burtons: "burtons",
+      }
+    },
   },
   plugins: [],
 }

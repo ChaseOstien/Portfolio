@@ -1,19 +1,9 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
-
-
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import PortfolioContainer from './components/PortfolioContainer';
 
 // import './assets/img/ProfilePicSmall.png';
 
-export default function App() {
-    return (
-        <main>
-            <Header />
-            <Outlet />
-            <Footer />
-        </main>
-    );
-}
+const App = () =>  
+    <PortfolioContainer />
 
+export default App;
