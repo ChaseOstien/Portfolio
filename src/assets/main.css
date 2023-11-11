@@ -480,11 +480,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   background-color: rgb(8 145 178 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-cyan-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(14 116 144 / var(--tw-bg-opacity));
-}
-
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
