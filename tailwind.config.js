@@ -8,16 +8,19 @@ module.exports = {
   './src/components/Header.jsx', 
   './src/components/NavBar.jsx', 
   './src/components/Project.jsx',
-  './src/pages/AboutPage.jsx',
-  './src/pages/ContactPage.jsx',
-  './src/pages/PortfolioPage.jsx',
-  './src/pages/ResumePage.jsx',
+  './src/components/pages/AboutPage.jsx',
+  './src/components/pages/ContactPage.jsx',
+  './src/components/pages/PortfolioPage.jsx',
+  './src/components/pages/ResumePage.jsx',
   './src/components/PortfolioContainer.jsx',
  ],
   theme: {
     extend: {
       fontFamily: {
-        burtons: "burtons",
+        'burtons': "burtons",
+      },
+      colors: {
+        'gray': '#27272A'
       }
     },
   },
