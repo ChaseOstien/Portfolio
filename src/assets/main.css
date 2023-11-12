@@ -64,7 +64,8 @@ Remove the default font size and weight for headings.
 */
 
 h1,
-h2 {
+h2,
+h4 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -193,6 +194,7 @@ Removes the default spacing and border for appropriate elements.
 
 h1,
 h2,
+h4,
 p {
   margin: 0;
 }
