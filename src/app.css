@@ -70,7 +70,7 @@
   }
 
     .navbar.expanded{
-      height: 60vh;
+      height: 40vh;
     }
   
     .navbar.expanded .links {
@@ -144,4 +144,10 @@
   .rounded-t-lg {
     height: 311px;
     width: 334px;
+  }
+
+  .text-center.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
