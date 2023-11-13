@@ -26,12 +26,14 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className="m-5">
-            <div className="wrapper">
-            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div className="antialiased">
+            <div className="wrapper bg-slate-300 w-full">
+                <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             </div>
-            <main className="">{renderPage()}</main>
-            <Footer />
+                <main className="main min-h-screen bg-slate-100">{renderPage()}</main>
+            <div className="bg-slate-300 bottom-0 w-full mt-auto">
+                <Footer />
+            </div>
         </div>
     );
 }

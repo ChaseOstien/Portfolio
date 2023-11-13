@@ -3,10 +3,15 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
   
   .wrapper {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1600px;
     overflow-x: hidden;
     overflow-y: auto;
     margin: 0 auto;
@@ -58,8 +63,14 @@
         }
     }
 
+    @media(max-width: 792px){
+      .flex.flex-wrap.justify {
+        justify-content: center;
+      }
+  }
+
     .navbar.expanded{
-      height: 40vh;
+      height: 60vh;
     }
   
     .navbar.expanded .links {
@@ -124,4 +135,13 @@
       margin: 15px 0;
       font-size: 24px;
     }
+  }
+
+  .p-5.border-solid {
+    border-top: 1px solid black;
+  }
+
+  .rounded-t-lg {
+    height: 311px;
+    width: 334px;
   }
