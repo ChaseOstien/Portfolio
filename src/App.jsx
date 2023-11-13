@@ -1,12 +1,9 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import PortfolioContainer from './components/PortfolioContainer';
 
 // import './assets/img/ProfilePicSmall.png';
 
-function App() {
-  return (
-      
-    <
-  );
-}
+const App = () =>  
+    <PortfolioContainer />
+
 export default App;
