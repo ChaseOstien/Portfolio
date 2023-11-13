@@ -84,10 +84,11 @@ const projectData = [
 
 export default function PortfolioPage () {
     return (
-        <div className="flex flex-wrap justify-evenly p-5 min-h-full">
+        <><h2 className="text-5xl pl-10 pt-10 text-teal-600 font-medium flex text-center">Portfolio</h2>
+        <div className="flex flex-wrap justify-evenly py-7 min-h-full">
             {projectData.map((project) => (
-            <Project key={project.id} project={project}/>
+                <Project key={project.id} project={project} />
             ))}
-        </div>
+        </div></>
     )
 }
