@@ -27,7 +27,7 @@ export default function PortfolioContainer() {
 
     return (
         <div className="antialiased">
-            <div className="wrapper bg-slate-300 w-full">
+            <div className="wrapper bg-slate-300 w-full sticky top-0">
                 <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             </div>
                 <main className="main min-h-screen bg-slate-100">{renderPage()}</main>

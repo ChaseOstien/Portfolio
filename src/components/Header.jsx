@@ -33,17 +33,17 @@ export default function Header({ currentPage, handlePageChange }) {
         </div>
         <h1 style={styles.title} className="logo font-burtons ">Chase Ostien</h1>
       <ul className="links">
-      <li>
-        <a href="#aboutme" onClick={() => handlePageChange('AboutPage')} className="bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md" aria-current="page">About Me</a>
+      <li className="">
+        <a href="#aboutme" onClick={() => handlePageChange('AboutPage')} className=" font-burtons bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md hover:underline-offset-1 active:underline-offset-1" aria-current="page">About Me</a>
       </li>
-      <li>
-        <a href="#portfolio" onClick={() => handlePageChange('PortfolioPage')} className="bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md">Portfolio</a>
+      <li className="">
+        <a href="#portfolio" onClick={() => handlePageChange('PortfolioPage')} className="font-burtons bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md">Portfolio</a>
       </li>
-      <li>
-        <a href="#contact" onClick={() => handlePageChange('ContactPage')} className="bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md">Contact</a>
+      <li className="">
+        <a href="#contact" onClick={() => handlePageChange('ContactPage')} className="font-burtons bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md">Contact</a>
       </li>
-      <li>
-        <a href="#resume" onClick={() => handlePageChange('ResumePage')}className="bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md" >Resume</a>
+      <li className="">
+        <a href="#resume" onClick={() => handlePageChange('ResumePage')}className="font-burtons bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md" >Resume</a>
       </li>
       <li style={styles.toggle} className="darkMode">
         <BsFillMoonStarsFill className="cursor-pointer text-xl"/>
