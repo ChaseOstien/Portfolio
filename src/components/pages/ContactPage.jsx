@@ -25,7 +25,7 @@ export default function ContactPage () {
     return (
         <section className="bg-slate-100">
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-teal-600">Contact</h2>
+      <h2 className="font-burtons mb-4 text-4xl tracking-tight font-extrabold text-center text-teal-600">Contact</h2>
       <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Feel free to contact me by filling out and submitting the form below. If you would like to connect, add me on LinkedIn!<a className=" flex justify-center text-5xl text-gray-600" href="https://www.linkedin.com/in/chase-ostien-2a1205200/"><AiFillLinkedin /></a></p>
       <form action="#" onSubmit={handleSubmit} className="space-y-8">
           <div>

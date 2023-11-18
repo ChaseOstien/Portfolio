@@ -7,7 +7,7 @@ export default function Project ({ project }) {
     return (
         
                 <div key={project.id} className="max-w-sm flex-none bg-slate-100 border border-gray-700 rounded-lg shadow m-5 flex-grow">
-                    <a href={project.repoLink}>
+                    <a href={project.repoLink} target="_blank" rel="noopener noreferrer">
                     <div className="aspect-w-16 aspect-h-9">
                         <img className="rounded-t-lg object-cover " src={project.img} alt={project.imgAlt} />
                         </div>
