@@ -22,7 +22,7 @@ export default function ContactPage () {
         // More to come on form change handling later when I code up the back end of this portfolio.
     }
     
-    return (
+    return ( // Input validation handled by type fields and required attributes.
         <section className="bg-slate-100">
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 className="font-burtons mb-4 text-4xl tracking-tight font-extrabold text-center text-teal-600">Contact</h2>

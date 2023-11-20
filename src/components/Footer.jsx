@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-
+// Using font awesome icons as links to socials.
 export default function Footer() {
     return (
         <footer className=" text-5xl flex justify-center gap-16 py-5 text-gray-600">

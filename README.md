@@ -33,7 +33,7 @@ npm run develop
 
 ## Deploy
 
-Website: 
+Website: https://main--glistening-profiterole-ef9ae7.netlify.app/#aboutme
 
 ## License
 
@@ -46,5 +46,5 @@ https://opensource.org/licenses/ISC
 For additional questions, contact me at the email provided below.
 
 - GitHub: [Portfolio](https://github.com/ChaseOstien/Portfolio)
-- Netlify: [Portfolio]()
+- Netlify: [Portfolio](https://main--glistening-profiterole-ef9ae7.netlify.app/#aboutme)
 - Chaseostien@gmail.com

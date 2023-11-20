@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "../Project";
-
+// Personal projects are structured as json objects and imported into this component. Passed down to project cards are props.
 import projectData from '../../utils/projects.json'
 
 export default function PortfolioPage () {

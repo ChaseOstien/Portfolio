@@ -5,7 +5,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 export default function ResumePage () {
     
-    
+    // JS to download resume file hosted in public directory
         const resumeDownload = () => {
             const pdfUrl = "/public/Profile.pdf";
             const link = document.createElement("a");
