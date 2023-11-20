@@ -7,7 +7,7 @@ export default function ResumePage () {
     
     // JS to download resume file hosted in public directory
         const resumeDownload = () => {
-            const pdfUrl = "/public/Profile.pdf";
+            const pdfUrl = "/Profile.pdf";
             const link = document.createElement("a");
             link.href = pdfUrl;
             link.download = "Resume.pdf"; // specify the filename
