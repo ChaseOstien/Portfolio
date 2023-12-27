@@ -75,5 +75,14 @@
         "img": "/img/WeatherDashboard.png",
         "imgAlt": "Weather Dashboard.",
         "repoLink": "https://github.com/ChaseOstien/Weather-Dashboard"
+    },
+    {
+        "id": 10,
+        "projectName": "Sabor Mexicano",
+        "projectDescription": "MERN Stack, GraphQL",
+        "img": "/img/SaborMexicano.png",
+        "imgAlt": "Food Main Menu.",
+        "repoLink": "https://github.com/JakeHowdeshell/react-menu?tab=readme-ov-file",
+        "deployed": "https://sabor-mexicano-aded3d6892cd.herokuapp.com/"
     }
 ]
