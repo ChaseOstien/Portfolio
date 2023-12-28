@@ -14,7 +14,8 @@ const styles = {
 }
 
 
-export default function Header({ currentPage, handlePageChange }) {
+// eslint-disable-next-line react/prop-types
+export default function Header({ handlePageChange }) {
       const [ toggle, setToggle ] = useState(false);
 
       const handleToggle = () => {
