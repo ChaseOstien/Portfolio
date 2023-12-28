@@ -1,11 +1,11 @@
 import React from "react";
 import PortfolioContainer from './components/PortfolioContainer';
-import { ToastContainer } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.min.css';
 
 const App = () =>  
-    <>
-        <PortfolioContainer />
-        <ToastContainer />
-    </>
+<>
+    <PortfolioContainer />
+    <ToastContainer />
+</>
 export default App;

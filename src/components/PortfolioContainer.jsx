@@ -6,6 +6,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ResumePage from "./pages/ResumePage";
+
 // Conditional rendering for main content area of application
 export default function PortfolioContainer() {
     const [ currentPage, setCurrentPage ] = useState('AboutPage');

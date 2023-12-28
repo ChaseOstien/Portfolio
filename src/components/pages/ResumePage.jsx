@@ -1,12 +1,27 @@
 import React from "react";
-import { AiOutlineDownload } from 'react-icons/ai';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import 'react-toastify/dist/ReactToastify.min.css';
+import { ToastContainer, toast } from "react-toastify";
+import { injectStyle } from "react-toastify/dist/inject-style";
 
 export default function ResumePage () {
+    injectStyle();
     
     // JS to download resume file hosted in public directory
         const resumeDownload = () => {
+
+            toast('Resume Downloaded!', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+                });
+
             const pdfUrl = "/Resume.pdf";
             const link = document.createElement("a");
             link.href = pdfUrl;
