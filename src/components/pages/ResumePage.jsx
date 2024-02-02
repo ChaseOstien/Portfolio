@@ -22,10 +22,10 @@ export default function ResumePage () {
                 theme: "dark",
                 });
 
-            const pdfUrl = "/Resume.pdf";
+            const pdfUrl = "/ChaseOstienResume.pdf";
             const link = document.createElement("a");
             link.href = pdfUrl;
-            link.download = "Resume.pdf"; // specify the filename
+            link.download = "ChaseOstienResume.pdf"; // specify the filename
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
